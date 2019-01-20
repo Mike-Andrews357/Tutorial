@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @cost.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @cost.body %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @cost.age %>
+</p>
+
+<p>
+  <strong>Babysitter:</strong>
+  <%= @cost.babysitter %>
+</p>
+
+<%= link_to 'Edit', edit_cost_path(@cost) %> |
+<%= link_to 'Back', costs_path %>
